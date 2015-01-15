@@ -1,0 +1,118 @@
+/* Empty. Add your own CSS if you like */
+body {
+    font-family: 'Roboto', serif;
+}
+
+#welcome-view {
+    background: url(../img/welcome_bg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.logo-welcome {
+    width: 120px;
+    height: 120px;
+    margin: 100px auto 60px auto;
+    background: url(../img/ionic.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.login-btns {
+    width: 250px;
+    margin: 0 auto 0 auto;
+}
+
+#btn-reg {
+    float: right;
+}
+
+#login-divider {
+    margin: 40px 0 10px 0;
+}
+
+#footer {
+    background: #5A5A5A;
+    opacity: 0.4;
+    color: #fff;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#btn-reg, #btn-login {
+    color: white;
+}
+
+.em-small {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.bar .title {
+    font-weight: bold;
+    text-align: center !important;
+
+}
+
+.em-padding-header {
+    padding: 2px;
+}
+
+.profile-container {
+    position: relative;
+    padding: 35px;
+    background-color:lightblue;
+}
+
+.profile-background {
+    position:absolute;
+    top:-20%;
+    left:-20%;
+    width:140%;
+    height:140%;
+    z-index:1;
+    background-size: cover;
+    -webkit-filter: blur(30px);
+    -moz-filter: blur(25px);
+    -o-filter: blur(25px);
+    -ms-filter: blur(25px);
+    filter: blur(25px);
+    opacity: 0.65;
+}
+
+.profile-pic {
+    position:relative;
+    z-index:5;
+    text-align: center;
+    height: 95px;
+    width: 95px;
+    background-size: cover;
+    display: block;
+    margin: 0 auto 0 auto;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+.em-gender .item-checkbox {
+    padding-left: 50px !important;
+    font-size: 14px;
+    border-width: 0;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+}
+
+.platform-android ion-popover-view.fit {
+    margin-top: 10px !important;
+}
