@@ -89,8 +89,9 @@ oauthApp.controller('welcomeCtrl', function ($scope, $state, $cookieStore) {
 
 });
 
-// Recurring Expenses
+// Dashboard/Profile Controller
 oauthApp.controller('dashboardCtrl', function ($scope, $window, $state, $cookieStore) {
+    // Set user details
     $scope.user = $cookieStore.get('userInfo');
     
     // Logout user
